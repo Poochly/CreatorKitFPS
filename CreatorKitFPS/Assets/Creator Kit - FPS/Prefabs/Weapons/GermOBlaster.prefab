@@ -48,18 +48,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 0
   weaponType: 0
-  fireRate: 0
+  fireRate: 0.05
   reloadTime: 1
-  clipSize: -2147483648
-  damage: 10000
+  clipSize: 160
+  damage: 1.3
   ammoType: 0
   projectilePrefab: {fileID: 0}
   projectileLaunchForce: 200
   EndPoint: {fileID: 9125261757865890827}
   advancedSettings:
-    spreadAngle: 2
-    projectilePerShot: 1
-    screenShakeMultiplier: 1
+    spreadAngle: 1
+    projectilePerShot: 50
+    screenShakeMultiplier: 25
   FireAnimationClip: {fileID: 7400006, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   ReloadAnimationClip: {fileID: 7400008, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   FireAudioClip: {fileID: 8300000, guid: 79c781879da4b6c4f8c7cd79fd034759, type: 3}
